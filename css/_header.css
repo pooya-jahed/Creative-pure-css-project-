@@ -1,0 +1,98 @@
+.header-img {
+  min-height: 86vh;
+  position: relative;
+  right: 0;
+}
+.overlay {
+  min-height: 91.5%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  z-index: 22;
+  background-size: cover;
+}
+.overlay h1 h2 {
+  position: absolute;
+  z-index: 33;
+}
+.header-title {
+  color: rgb(248, 252, 11);
+  margin: 220px;
+  max-width: 400px;
+}
+.header-title a {
+  direction: ltr;
+  float: left;
+  color: rgb(255, 255, 255);
+  margin-left: 39px;
+  padding: 4px 5px;
+  background-color: rgba(214, 182, 0, 0.664);
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.overlay h1 {
+  margin-bottom: 15px;
+}
+@media only screen and (max-width: 1200px) {
+  .header-title {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    background-color: rgba(63, 35, 187, 0.4);
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    border-radius: 5px;
+  }
+  .header-img,
+  .overlay {
+    max-height: 100%;
+  }
+}
+@media only screen and (max-width: 678px) {
+  .overlay {
+    min-height: 94%;
+  }
+  .header-title h2 {
+    font-size: 14px;
+  }
+  .header-title h1 {
+    font-size: 16px;
+  }
+  .header-title {
+    padding: 10px;
+    max-width: 250px;
+    top: 10%;
+  }
+  .header-title a {
+    font-size: 12px;
+    padding: 2px 5px;
+    margin-left: 18px;
+  }
+  .header-img,
+  .overlay {
+    max-height: 100%;
+  }
+}
+@media only screen and (min-width: 1860px) {
+  .overlay {
+    min-height: 98%;
+  }
+}
+@media only screen and (min-width: 1991px) {
+  .overlay {
+    min-height: 105%;
+  }
+}
+@media only screen and (min-width: 2120px) {
+  .overlay {
+    min-height: 115%;
+  }
+}
+@media only screen and (min-width: 2320px) {
+  .overlay {
+    min-height: 125%;
+  }
+}

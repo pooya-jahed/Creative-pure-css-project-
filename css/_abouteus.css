@@ -1,0 +1,75 @@
+section h5 .about-us {
+  color: black;
+}
+section h5 .about-us::before {
+  width: 59px;
+  height: 4px;
+  background-color: rgb(0, 153, 255);
+  content: "";
+  position: absolute;
+  top: 17px;
+  right: -69px;
+}
+section h5 .about-us::after {
+  width: 59px;
+  height: 4px;
+  background-color: rgb(0, 153, 255);
+  content: "";
+  position: absolute;
+  top: 17px;
+  right: 76px;
+}
+.about-us-left-side {
+  background-color: rgb(236, 236, 236);
+  padding: 48px;
+  margin-top: 100px;
+}
+.about-us-left-side h4 {
+  border-bottom: solid 1px rgb(190, 190, 190);
+  padding-bottom: 15px;
+  font-size: 18px;
+  padding-right: 20px;
+  font-family: sans-serif;
+}
+.about-us-left-side p {
+  padding: 30px;
+  font-size: 16px;
+  line-height: 28px;
+  color: rgb(58, 58, 58);
+}
+.about-us-left-side a {
+  direction: ltr;
+  float: left;
+  color: rgb(255, 255, 255);
+  margin-left: 39px;
+  padding: 4px 5px;
+  background-color: rgba(214, 182, 0, 0.664);
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.3s ease-in;
+}
+.about-us-left-side a:hover {
+  background-color: rgba(255, 217, 0, 0.733);
+}
+.about-us-left-side h4:hover {
+  border-bottom: solid 1px rgb(117, 117, 117);
+}
+@media only screen and (max-width: 992px) {
+  .about-us-right-side {
+    display: none;
+  }
+  .about-us-left-side {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1810px) {
+  .about-us-right-side img {
+    margin-top: 80px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .about-us-right-side img {
+    margin-top: 170px;
+  }
+} ;

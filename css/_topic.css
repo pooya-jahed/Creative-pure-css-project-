@@ -1,0 +1,93 @@
+.topic-section{
+background-image:url(/img/bg-topic4.jpg) ;
+background-repeat: no-repeat;
+background-position:center;
+background-size: cover;
+height: auto;
+padding-bottom: 100px;
+}
+.topic-section .card-topic{
+margin-top: 40px;
+box-shadow: 2PX 2PX 9px 5px rgb(147 147 147);
+}
+.topic-section .card-topic .card-header {
+    overflow:hidden;
+    background-color: rgb(255, 217, 0);
+}
+.topic-section .card-topic .card-body{
+    padding: 10px 10PX;
+}
+.topic-section .card-topic .card-body a{
+font-size: 18PX;
+padding:5PX ;
+
+font-weight: bold;
+}
+.topic-section .card-topic .card-body p{
+    margin-top: 15px;
+    color: rgb(58, 58, 58);
+    line-height: 20px;
+    }
+.topic-section .card-topic img{
+    transition: 1S ease;
+}
+.topic-section .card-topic:hover img {
+    transform: scale(1.2) rotate(5deg);
+}
+.card-topic .card-body .post-data{
+    top: -53px;
+    right: 15px;
+    text-align: center;
+    width: 40px;
+    font-size: 14px;
+}
+.card-topic .card-body .post-data div:first-child{
+    background-color: rgb(246, 133, 5);
+    color: aliceblue;
+}
+.card-topic .card-body .post-data div:last-child{
+    background-color: rgb(255, 208, 0);;
+}
+.card-topic .card-footer ul {
+    border-top: 1px solid rgba(212, 212, 212, 0.708); ;
+}
+.card-topic .card-footer ul li{
+    display: inline-block;
+    padding: 10px 12px;
+    font-size: 12px;
+}
+.card-topic .card-footer ul li i,span{
+    margin: 0 5px;
+    font-size: 12px;
+    color: rgb(77, 77, 77);
+
+}
+.topic-title h5  {
+    padding-top: 50px;
+}
+
+.topic-title h5 .topic-header {
+    color: black;
+    
+    font-size: 18px;
+    text-align: center;
+
+  }
+  .topic-section h5 .topic-header::before {
+    width: 59px;
+    height: 4px;
+    background-color: rgb(255, 175, 1);
+    content: "";
+    position: absolute;
+    top: 14px;
+    right: -69px;
+  }
+  .topic-section h5 .topic-header::after {
+    width: 59px;
+    height: 4px;
+    background-color: rgb(255, 175, 1);
+    content: "";
+    position: absolute;
+    top: 13px;
+    right: 129px;
+  }

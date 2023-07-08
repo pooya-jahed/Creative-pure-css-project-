@@ -1,0 +1,22 @@
+.static-section {
+  background-color: rgba(54, 151, 197, 0.823);
+  min-height: 240px;
+  padding: 20px;
+}
+.static-section img {
+  width: 100px;
+  height: 100px;
+  margin-top: 15px;
+}
+.static-section div.count {
+  font-size: 24px;
+  color: white;
+  margin-top: 15px;
+  margin-right: 5px;
+}
+.static-section div.count-title {
+  font-size: 18px;
+  color: white;
+  margin-right: 5px;
+  margin-top: 10px;
+}

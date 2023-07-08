@@ -1,0 +1,124 @@
+.teacher-section-wrapper {
+  background-image: url(/img/teacher-section-wrapper.png);
+  background-attachment: fixed;
+}
+.teacher-section-wrapper div.teacher-intro h2 span {
+  background-color: rgba(255, 127, 80, 0.709);
+  border-radius: 8px;
+  padding: 0 8px;
+}
+.teacher-section-wrapper div.teacher-intro {
+  background: #fff;
+  width: 100%;
+  transform: translate(-50%, 25%);
+  height: auto;
+  box-shadow: 1px 1px 20px 1px #1c8cdb;
+  border-radius: 50px 50px 110px;
+  margin-top: 150px;
+  margin-left: -12px;
+  font-size: 18px;
+  padding: 94px 0px;
+  top: 10%;
+  left: -30%;
+}
+.teacher-section-wrapper div.teacher-intro h2 {
+  margin: 130px 0;
+}
+
+.teacher-section-wrapper div.teacher-intro a {
+  display: inline-block;
+  margin-bottom: 29px;
+  border: 1px SOLID rgb(255, 140, 0);
+  width: 79px;
+  margin-right: 993px;
+  padding: 3px 7px;
+  font-size: 16px;
+  color: rgb(56, 56, 56);
+  transition: 0.4s ease;
+  border-radius: 10px;
+}
+.teacher-section-wrapper div.teacher-intro a:hover {
+  background-color: rgb(255, 162, 49);
+  color: aliceblue;
+}
+@media screen and (max-width: 2370px) {
+  .teacher-section-wrapper div.teacher-intro a {
+    margin-right: 862px;
+  }
+}
+@media screen and (max-width: 2070px) {
+  .teacher-section-wrapper div.teacher-intro a {
+    margin-right: 722px;
+  }
+}
+@media screen and (max-width: 1690px) {
+  .teacher-section-wrapper div.teacher-intro a {
+    margin-right: 600px;
+  }
+}
+@media screen and (max-width: 1560px) {
+  .teacher-section-wrapper div.teacher-intro {
+    background: #fff;
+    width: 100%;
+    transform: translate(-50%, 25%);
+    height: auto;
+    box-shadow: 1px 1px 20px 1px #1c8cdb;
+    border-radius: 50px 50px 110px;
+    margin-top: 90px;
+    margin-left: -12px;
+    font-size: 14px;
+    padding: 40px 0px;
+    top: 8%;
+    left: -30%;
+  }
+  .teacher-section-wrapper div.teacher-intro a {
+    margin-right: 490px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .teacher-section-wrapper div.teacher-intro {
+    background: #fff;
+    width: 100%;
+    transform: translate(-50%, 25%);
+    height: auto;
+    box-shadow: 1px 1px 20px 1px #1c8cdb;
+    border-radius: 50px 50px 110px;
+    margin-top: 40px;
+    margin-left: -12px;
+    font-size: 14px;
+    padding: 20px 0px;
+    top: 8%;
+    left: -30%;
+  }
+}
+.teacher-section-wrapper div.teacher-intro a {
+  margin-right: 290px;
+  font-size: 12px;
+}
+@media screen and (max-width: 997px) {
+  .teacher-section-wrapper div.teacher-intro {
+    background: #fff;
+    width: 90%;
+    transform: translate(-50%, 25%);
+    height: auto;
+    box-shadow: 1px 1px 20px 1px #1c8cdb;
+    border-radius: 50px 50px 110px;
+    margin-top: 10px;
+    margin-left: -12px;
+    font-size: 14px;
+    padding: 10px 0px;
+    top: 0%;
+    left: -30%;
+  }
+  .teacher-section-wrapper div.teacher-intro a {
+    margin-right: 150px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .teacher-section-wrapper {
+    display: none;
+  }
+}
