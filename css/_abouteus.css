@@ -56,11 +56,15 @@ section h5 .about-us::after {
   border-bottom: solid 1px rgb(117, 117, 117);
 }
 @media only screen and (max-width: 992px) {
+  .section-title {
+    margin: 20px;
+  }
   .about-us-right-side {
     display: none;
   }
   .about-us-left-side {
     width: 100%;
+    margin-top: 50px;
   }
 }
 @media only screen and (max-width: 1810px) {
@@ -72,4 +76,4 @@ section h5 .about-us::after {
   .about-us-right-side img {
     margin-top: 170px;
   }
-} ;
+}
