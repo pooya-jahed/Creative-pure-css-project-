@@ -1,10 +1,10 @@
 .header-img {
-  min-height: 86vh;
+  height: 86vh;
   position: relative;
   right: 0;
 }
 .overlay {
-  min-height: 103.4vh;
+  height: 94%;
   width: 100%;
   background-color: rgba(0, 0, 0, 0.3);
   position: absolute;
@@ -50,10 +50,13 @@
     max-height: 100%;
   }
 }
-@media only screen and (max-width: 678px) {
+@media only screen and (min-width: 358px) and (max-width: 987px) {
   .overlay {
-    min-height: 94%;
+    height: 88.5%;
   }
+}
+@media only screen and (max-width: 678px) {
+
   .header-title h2 {
     font-size: 14px;
   }
