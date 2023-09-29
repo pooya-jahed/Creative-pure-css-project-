@@ -1,6 +1,9 @@
 .teacher-section-wrapper {
-  background-image: url(/img/teacher-section-wrapper.png);
+  background-image: url("../img/bg/bg-topic2.webp");
   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .teacher-section-wrapper div.teacher-intro h2 span {
   background-color: rgba(255, 127, 80, 0.709);
